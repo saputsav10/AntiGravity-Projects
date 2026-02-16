@@ -1,3 +1,4 @@
+// Practice code with javascript
 document.addEventListener('DOMContentLoaded', () => {
     const yesBtn = document.getElementById('yes-btn');
     const noBtn = document.getElementById('no-btn');
