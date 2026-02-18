@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Note the date: February 17th; Nepal won the first cricket world cup in 12 years history. Yaay!</h1>
     <div class="container">
         <div id="proposal-content">
-            <h1 class="title">Will you be my valentine? 🌹</h1>
+            <h1 class="title" id="main-question">Will you be my valentine? 🌹</h1>
             <div class="buttons">
                 <button id="yes-btn" class="btn btn-yes">Yes</button>
                 <button id="no-btn" class="btn btn-no">No</button>
             </div>
         </div>
-        
+
         <div id="success-content" class="hidden">
             <h1 class="title">Yay! I knew it! ❤️</h1>
-            <p class="subtitle">Best Valentine ever!</p>
+            <p class="subtitle" id="success-message">Best Valentine ever!</p>
             <div class="heart-animation">💖</div>
+            <button id="reset-btn" class="btn btn-reset">Ask Again?</button>
         </div>
     </div>
+    <div id="hearts-container"></div>
+    <div id="confetti-container"></div>
     <script src="script.js"></script>
 </body>
+
 </html>
