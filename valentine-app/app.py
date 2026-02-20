@@ -8,6 +8,8 @@ import random
 app = Flask(__name__)
 app.secret_key = 'super-secret-valentine-key-2026'
 
+#Application file for valentine app: Python codes for the application
+
 # Database setup
 def init_db():
     conn = sqlite3.connect('proposals.db')
